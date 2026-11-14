@@ -1,0 +1,155 @@
+{
+  "version": "thumbnail-features-v1",
+  "config": {
+    "width": 1280,
+    "height": 720,
+    "mobile_width": 320,
+    "mobile_height": 180,
+    "ocr_min_confidence": 30,
+    "ocr_psm": 11,
+    "canny_thresholds": [
+      100,
+      200
+    ],
+    "face_detector": "opencv_haar_frontalface_default",
+    "face_scale_factor": 1.1,
+    "face_min_neighbors": 5,
+    "face_min_size": [
+      20,
+      20
+    ]
+  },
+  "sample_size_processed": 1179,
+  "bootstrap_iterations": 500,
+  "bootstrap_seed": 42,
+  "selection_criterion": "Historical images externally selected from faceless YouTube videos with strictly more than 50000 views; not verified by this app",
+  "interpretation": "Descriptive candidate P10-P90 reference intervals; not optimal ranges or performance predictions",
+  "features": {
+    "brightness": {
+      "type": "continuous",
+      "valid_n": 1179,
+      "p10": 0.3735551640795207,
+      "median": 0.5032020186546842,
+      "p90": 0.6452336907679739,
+      "present_count": null,
+      "present_rate": null
+    },
+    "contrast": {
+      "type": "continuous",
+      "valid_n": 1179,
+      "p10": 0.227077318861962,
+      "median": 0.3011959888093823,
+      "p90": 0.3444701026882546,
+      "present_count": null,
+      "present_rate": null
+    },
+    "sharpness": {
+      "type": "continuous",
+      "valid_n": 1179,
+      "p10": 7.627808798611111,
+      "median": 25.225810572916668,
+      "p90": 36.97825255208334,
+      "present_count": null,
+      "present_rate": null
+    },
+    "mobile_sharpness": {
+      "type": "continuous",
+      "valid_n": 1179,
+      "p10": 18.551320958687064,
+      "median": 74.12206027993707,
+      "p90": 116.0714647581597,
+      "present_count": null,
+      "present_rate": null
+    },
+    "ocr_text_percentage": {
+      "type": "continuous",
+      "valid_n": 1179,
+      "p10": 2.500260416666667,
+      "median": 10.221571180555555,
+      "p90": 24.314887152777786,
+      "present_count": null,
+      "present_rate": null
+    },
+    "ocr_confidence": {
+      "type": "continuous",
+      "valid_n": 1171,
+      "p10": 0.505,
+      "median": 0.6785,
+      "p90": 0.8064285714285714,
+      "present_count": null,
+      "present_rate": null
+    },
+    "text_word_count": {
+      "type": "discrete",
+      "valid_n": 1179,
+      "p10": 5.0,
+      "median": 15.0,
+      "p90": 31.0,
+      "present_count": null,
+      "present_rate": null
+    },
+    "text_median_height": {
+      "type": "continuous",
+      "valid_n": 1171,
+      "p10": 0.0333333333333333,
+      "median": 0.0555555555555555,
+      "p90": 0.1069444444444444,
+      "present_count": null,
+      "present_rate": null
+    },
+    "text_local_contrast": {
+      "type": "continuous",
+      "valid_n": 1171,
+      "p10": 0.0877934761037089,
+      "median": 0.1679535123244342,
+      "p90": 0.2484616780825958,
+      "present_count": null,
+      "present_rate": null
+    },
+    "text_center_x": {
+      "type": "continuous",
+      "valid_n": 1171,
+      "p10": 0.3663753695338996,
+      "median": 0.5034164715465097,
+      "p90": 0.651521374147124,
+      "present_count": null,
+      "present_rate": null
+    },
+    "text_present": {
+      "type": "binary",
+      "valid_n": 1179,
+      "p10": null,
+      "median": null,
+      "p90": null,
+      "present_count": 1171,
+      "present_rate": 0.993214588634436
+    },
+    "face_percentage": {
+      "type": "continuous",
+      "valid_n": 1179,
+      "p10": 0.0,
+      "median": 3.1451822916666665,
+      "p90": 23.841059027777792,
+      "present_count": null,
+      "present_rate": null
+    },
+    "face_count": {
+      "type": "discrete",
+      "valid_n": 1179,
+      "p10": 0.0,
+      "median": 2.0,
+      "p90": 7.0,
+      "present_count": null,
+      "present_rate": null
+    },
+    "clutter_score": {
+      "type": "continuous",
+      "valid_n": 1179,
+      "p10": 0.0290750868055555,
+      "median": 0.05982421875,
+      "p90": 0.0853174913194444,
+      "present_count": null,
+      "present_rate": null
+    }
+  }
+}

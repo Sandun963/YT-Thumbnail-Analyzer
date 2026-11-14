@@ -1,0 +1,102 @@
+
+# ==========================================
+# YT Thumbnail Analyzer - .gitignore
+# ==========================================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+temp/
+tmp/
+
+# Generated thumbnail images
+uploads/
+outputs/
+results/
+generated/
+*.preview.png
+*.preview.jpg
+
+# AI model weights and checkpoints
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.safetensors
+
+# Large downloaded model files
+models/downloaded/
+checkpoints/
+weights/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local cache
+.cache/
+cache/
+
+# Local benchmark outputs
+benchmark_results/
+reports/generated/
